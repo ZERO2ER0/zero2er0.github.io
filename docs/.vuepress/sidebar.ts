@@ -15,14 +15,8 @@ export default sidebar({
       link: "",
       collapsible: true,
       children: [
-        "Applist.md",
-        "toolbox.md",
-        {
-          text: "其他",
-          icon: "fa6-solid:code-compare",
-          collapsible: true,
-          children: ["design.md"],
-        },
+        "DeepWork.md",
+        "README.md",
       ],
     },
     // 指定显示页面
@@ -33,8 +27,14 @@ export default sidebar({
       link: "",
       collapsible: true,
       children: [
-        "DeepWork.md",
-        "README.md",
+        "Applist.md",
+        "toolbox.md",
+        {
+          text: "其他",
+          icon: "fa6-solid:code-compare",
+          collapsible: true,
+          children: ["design.md"],
+        },
       ],
     },
     {
