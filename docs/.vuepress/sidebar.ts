@@ -93,13 +93,4 @@ export default sidebar({
     },
     {
       text: "博客文章",
-      icon: "fa6-solid:feather-pointed",
-      prefix: "/_posts/",
-      link: "/blog",
-      collapsible: true,
-      children: "structure",
-    },
-  ],
-  // 专题区（独立侧边栏）
-  "/apps/topic/": "structure",
-});
+      icon: "fa6-soli
