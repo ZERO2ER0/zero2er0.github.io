@@ -1,3 +1,10 @@
+---
+article: false
+title: Reading
+icon: fa6-solid:reading
+order: 7
+---
+
 # 深度工作
 
 ## 前言
