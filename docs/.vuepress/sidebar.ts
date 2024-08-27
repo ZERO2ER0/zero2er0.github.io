@@ -7,12 +7,11 @@ export default sidebar({
     "/DailyRoutine",
     "/Fitness",
     // 读书笔记架构更换到 docsify，不能使用相对链接
-    { text: "读书笔记", icon: "fa6-brands:readme", link: "https://newzone.top/reading/" },
-    // 指定显示页面
+    // { text: "读书笔记", icon: "fa6-brands:readme", link: "https://newzone.top/reading/" },
     {
-      text: "🧰 应用手册",
+      text: "📚 读书笔记",
       icon: "",
-      prefix: "/apps/",
+      prefix: "/reading/",
       link: "",
       collapsible: true,
       children: [
@@ -24,6 +23,18 @@ export default sidebar({
           collapsible: true,
           children: ["design.md"],
         },
+      ],
+    },
+    // 指定显示页面
+    {
+      text: "🧰 应用手册",
+      icon: "",
+      prefix: "/apps/",
+      link: "",
+      collapsible: true,
+      children: [
+        "DeepWork.md",
+        "README.md",
       ],
     },
     {
