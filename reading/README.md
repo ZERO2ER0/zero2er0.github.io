@@ -1,39 +1,47 @@
 ---
 article: false
-title: Reading
+title: 读书笔记
 icon: fa6-solid:reading
 ---
 
-## 编程学习路径
+曾经我尝试使用 Notion 和 md-vscode 来编写读书或论文笔记，但我发现了 LearnData 这个知识库框架，决定将已有的读书笔记迁移至此，并将注意力更多的集中在更好的编写这些笔记上。
+当我有回顾某本书内容的需求时，我首先应阅读笔记；在笔记不能满足需求时，再去阅读书籍或论文本体。这种方式对笔记的撰写提出了更高的要求。
 
-代码编程的学习路径：
 
-- 编程语言：[TypeScript](https://www.typescriptlang.org/zh/)，[JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-- 相关基础知识：HTML，Markdown，MySQL，正则表达式
-- 脚本/开发工具：AutoHotkey，Electron
 
-- 前端框架：[Vue.js](https://cn.vuejs.org/)，[React](https://zh-hans.react.dev/)
-- UI 框架：[Ant Design](https://ant-design.antgroup.com/index-cn)，[Element Plus](https://element-plus.gitee.io/zh-CN/guide/quickstart.html)
-  - CSS 预编译：[Stylus](https://stylus-lang.com/) / [Sass](https://sass.bootcss.com/documentation) / [Less](https://lesscss.cn/)
-  - CSS 后处理器：PostCSS，[tailwindcss](https://www.tailwindcss.cn/docs)
-- 网站生成工具：[VuePress](https://v2.vuepress.vuejs.org/zh/guide/getting-started.html)，[Docusaurus](https://docusaurus.io/zh-CN/docs)，[Next.js](https://nextjs.org/docs)
+## 阅读技巧
 
-- Node.js 框架：[Midway](https://www.midwayjs.org/docs/intro)
-- HTTP 工具：[Axios](https://axios-http.com/)
-  - Git Hook 工具：[husky](https://typicode.github.io/husky/#/) + [lint-staged](https://github.com/okonet/lint-staged)
-  - 代码规范：[EditorConfig](https://editorconfig.org/) + [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation)
-  - 提交规范：[Commitizen](https://commitizen.github.io/cz-cli/) + [Commitlint](https://commitlint.js.org/#/)
-  - 单元测试：[vue-test-utils](https://next.vue-test-utils.vuejs.org/) + [jest](https://jestjs.io/) + [vue-jest](https://github.com/vuejs/vue-jest) + [ts-jest](https://kulshekhar.github.io/ts-jest/)
-  - 自动部署：[GitHub Actions](https://docs.github.com/cn/actions/learn-github-actions)
+当我们阅读书籍时，目标是理解其中的核心思想、论证逻辑、论据以及思考框架。我们应该能够**用自己的话语向朋友简要解释书中的内容**。将所读**书籍与自己的经验和见解相结合**，以建立深刻的理解。这种关联是真正理解书籍内容的关键。应**将书籍视为工具**，仅在需要时查看特定部分，以便将其应用到实际情境中，实现最大效益。
 
-## IDE 编辑器
+## 阅读准备
 
-- [Visual Studio Code](https://newzone.top/apps/tutorials/vscode.html)：本地代码编辑器首选，插件丰富，适应各种开发需求。
+要明确一点，阅读是一项学习和工作活动，而非娱乐。在阅读时，应该尽量消除一切干扰，以确保大脑能够集中精力思考。可以**采用番茄工作法，确保没有音乐或其他干扰，以保持 3 小时的专注阅读**。
 
-- 在线 IDE：开箱即用，无需搭建环境，避免本地环境错误导致的各类 bug。
+在开始阅读之前，进行一些准备工作。**查看书籍的书评**，以了解大致内容，翻阅目录，包括前言、后记和索引，以获取整体框架。
 
-  - [StackBlitz](https://stackblitz.com/)：StackBlitz 界面类似 Visual Studio Code，可以直接 push 和拉取 GitHub 仓库的代码进行查看和编辑，项目支持离线开发，同时所有应用程序会自动部署在其服务器上。^[[六个好用的在线代码编辑器，你选哪个？](https://www.51cto.com/article/718302.html)]
+在阅读时，要**不求甚解**。不要在每一页都停下来查找或思考，而是尽量将整体理解。如果你坚持要了解每一页的意义，才肯往下读，那你一定读不了多少。努力了解细微的重点，反而会错过说得很清楚的大原则。
 
-  - [CodePen](https://codepen.io/pen/)：CodePen 是一个在线的 HTML、CSS 和 JavaScript 代码编辑器，能够编写代码并即时预览效果，便于项目分享预览。CodePen 也一个庞大的前端社区，上面有来自全球开发者分享的各种各样炫酷的效果，并且这些代码都是开源和共享的。
+### 读书笔记
 
-  - [CodeSandbox](https://codesandbox.io/s/)：CodeSandbox 编辑体验与 VSCode 类似，并支持 GitHub 导出、静态文件托管、本地项目导入等。缺点：不能直接导入 GitHub 项目。
+在阅读过程中，建立一个有效的笔记系统可以帮助你更好地理解和回顾所读内容。
+
+使用书签标记关键信息和重点，同时进行自我思考，标记书中「**有道理**」和「**有问题**」的部分。这将有助于后续的复习，并将书籍转化为你的工具书。
+
+阅读完成后，尝试用**一句话总结**书籍的主要内容，并将这个概括写在小卡片上，放入书中，以便以后回顾。
+
+## 其他阅读理论
+
+上述技巧参考了[戴雨森阅读法](https://zhuanlan.zhihu.com/p/25858189)和雪球速读法。此外，还有**费曼技巧**，它包括以下步骤：
+
+1. Choose a Concept 选择一个概念；
+2. Teach it to a Toddle 假装把它讲给小孩子听；
+3. Identify Gaps and Go Back to The Source Material 发现理解不到位的地方，返回原始材料学习；
+4. Review and Simplify (Optional) 回顾和简化信息（可选）。
+
+另一种方法是 **3-2-1 训练法**：
+
+1. 随便找一本书，开始阅读，倒计时 3 分钟结束后合上书，找一张纸，画一张思维导图，把刚才你读到的关键点靠回忆记录下来。
+2. 重新阅读刚才阅读的内容，区别是倒计时降低到 2 分钟，也就是你需要用 2 分钟完成刚才 3 分钟读完的内容，并补充刚才的导图里的内容。
+3. 用 1 分钟再次重复上述过程。^[[2.4 如何提升信息处理速度](https://sspai.com/post/53852)]^[[3.5 创建你的信息数据库](https://sspai.com/post/54065)]
+
+扩展：自动抓取字数与书单列表，功能参考 [郭飞书单](https://www.guofei.site/reading/#/)。
