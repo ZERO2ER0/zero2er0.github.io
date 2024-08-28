@@ -1,6 +1,6 @@
 ---
 article: false
-title: DeepWork
+title: 深度工作
 icon: fa6-solid:reading
 order: 7
 ---
