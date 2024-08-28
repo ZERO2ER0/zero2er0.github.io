@@ -16,6 +16,7 @@ export default sidebar({
       collapsible: true,
       children: [
         "DeepWork.md",
+        "EatingFrog.md",
         "README.md",
       ],
     },
@@ -74,7 +75,7 @@ export default sidebar({
           text: "Basic",
           icon: "fa6-solid:cube",
           collapsible: true,
-          children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md"],
+          children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md", "TermCmd.md"],
         },
         {
           text: "FrondEnd",
