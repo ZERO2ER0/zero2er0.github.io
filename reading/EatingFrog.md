@@ -1,6 +1,6 @@
 ---
 article: false
-title: DeepWork
+title: 吃掉那只青蛙
 icon: fa6-solid:reading
 order: 7
 ---
